@@ -5,7 +5,7 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 ## Roadmap
 
 ### Software Development
-- [ ] Create example subsetting notebooks for FVCOM and ROMS using NODD data
+- [ ] Create example subsetting notebooks for FVCOM and ROMS using NODD data with Xarray
     * [FVCOM](https://github.com/mpiannucci/ocean-notebooks/blob/main/ngofs2_best_subset.ipynb)
 - [ ] Create python package for subsetting model data with their native grids using Xarray
     * https://github.com/asascience-open/xarray-subset-grid
