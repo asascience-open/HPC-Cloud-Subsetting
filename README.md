@@ -3,6 +3,9 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 
 
 ## Roadmap
+### Ingest
+- [x] Ingest NFOGS2
+- [x] Ingest WCOFS
 
 ### Software Development
 - [ ] Create example subsetting notebooks for FVCOM and ROMS using NODD data with Xarray
