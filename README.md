@@ -5,7 +5,7 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 ## Roadmap
 ### Ingest
 - [ ] Ingest NFOGS2
-   * Add `mesh_topology` to the zarr datasets so they can be loaded with ugrid
+   * Add `mesh_topology` to the zarr datasets so they can be loaded consistently with ugrid and cf
 - [x] Ingest WCOFS
 
 ### Software Development
