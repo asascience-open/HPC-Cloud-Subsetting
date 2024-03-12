@@ -4,13 +4,14 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 
 ## Roadmap
 ### Ingest
-- [ ] Ingest NFOGS2
+- [x] Ingest NFOGS2
    * Add `mesh_topology` to the zarr datasets so they can be loaded consistently with ugrid and cf
 - [x] Ingest WCOFS
 
 ### Software Development
-- [ ] Create example subsetting notebooks for FVCOM and ROMS using NODD data with Xarray
+- [x] Create example subsetting notebooks for FVCOM and ROMS using NODD data with Xarray
     * [FVCOM](https://github.com/mpiannucci/ocean-notebooks/blob/main/ngofs2_best_subset.ipynb)
+    * [ROMS](https://github.com/mpiannucci/ocean-notebooks/blob/main/wcofs_best_subset.ipynb)
 - [ ] Create python package for subsetting model data with their native grids using Xarray
     * https://github.com/asascience-open/xarray-subset-grid
 - [ ] Create Xpublish plugin API to subset datasets on demand in the cloud
