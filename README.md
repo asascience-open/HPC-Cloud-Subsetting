@@ -3,7 +3,7 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 
 ## Targets for End of Project
 - [ ] `xarray_subset_grid` repository is fully functional for ROMS and FVCOM datasets, contains examples and tests that prove the subsettings method is accurate.
-- [ ] `xreds` subset API is capable of delivering subsets 500 MB and below as `netCDF`, and any size as zarr. 
+- [X] `xreds` subset API is capable of delivering subsets 500 MB and below as `netCDF`, and any size as zarr. 
 
 ## Roadmap
 ### Ingest
@@ -26,16 +26,16 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 - [ ] Create test and validation suites for python package
 - [ ] Benchmark subetting performance using test and validation cases
 - [ ] Create full package documentation using python best practices
-- [ ] Add CI-CD and python package deployment integration with github
-    * Includes deployment to `pypi`
-- [ ] Optimize performance in subsetting package
-    * Dataset subsetting methodology and algorithm performance)
+- [x] Add CI-CD
+- [ ] Add python package deployment integration with github with deploymen to pypi
+- [x] Optimize performance in subsetting package
+    * Dataset subsetting methodology and algorithm performance
 - [ ] Optimize performance in cloud based service
     * IO, cacheing, threading performance 
 - [ ] Expand to other grid types
     - [x] ADCIRC
-    - [ ] SELFE
-    - [ ] SCHISM
+    - [ ] SELFE (Untested, but should work)
+    - [X] SCHISM
     - [ ] HYCOM
-    - [ ] Regular Grid
-    - [ ] 2D Grid
+    - [X] Regular Grid
+    - [X] 2D Grid
