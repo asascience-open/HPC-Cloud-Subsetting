@@ -28,13 +28,18 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 - [ ] Benchmark subetting performance using test and validation cases
 - [ ] Create full package documentation using python best practices
 - [x] Add CI-CD
+- [ ] Vertical Subset API
+    - [x] Subset Level and Levels
+    - [ ] Top Vertical Accessor
+    - [ ] Bottom Vertical Accessor
+    - [ ] Surface Vertical Accessor
 - [ ] Add python package deployment integration with github with deployment to pypi
 - [x] Optimize performance in subsetting package
     * Dataset subsetting methodology and algorithm performance
 - [ ] Expand to other grid types
     - [x] ADCIRC
-    - [ ] SELFE (Untested, but should work)
+    - [ ] SELFE (Untested, but should work, CREOFS)
     - [X] SCHISM
-    - [ ] HYCOM
-    - [X] Regular Grid
-    - [X] 2D Grid
+    - [ ] HYCOM (RTOFS)
+    - [X] Regular Grid (Test with GFS NOMADS OpenDAP)
+    - [X] 2D Grid (Test with NAM Conus OpenDAP)
