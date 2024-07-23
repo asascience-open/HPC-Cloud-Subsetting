@@ -23,15 +23,14 @@ Project tracking repository for the NOAA HPC Subsetting Model Data in the Cloud 
 - [x] Deploy demo functionality with existing XREDS service
     * https://nextgen-dev.ioos.us/xreds/subset_export
 - [x] Create example workflow scripts and notebooks utilizing the service
+- [ ] Create API for reusing slicing logic
 - [ ] Create test and validation suites for python package
 - [ ] Benchmark subetting performance using test and validation cases
 - [ ] Create full package documentation using python best practices
 - [x] Add CI-CD
-- [ ] Add python package deployment integration with github with deploymen to pypi
+- [ ] Add python package deployment integration with github with deployment to pypi
 - [x] Optimize performance in subsetting package
     * Dataset subsetting methodology and algorithm performance
-- [ ] Optimize performance in cloud based service
-    * IO, cacheing, threading performance 
 - [ ] Expand to other grid types
     - [x] ADCIRC
     - [ ] SELFE (Untested, but should work)
